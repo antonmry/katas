@@ -1,0 +1,3 @@
+- [ ] Move lib out of the project (to root)
+- [ ] Update the classpath with the new location
+- [ ] Add script to create the project
