@@ -22,12 +22,12 @@ public class SolutionTest {
     public void firstTest() throws IOException {
 
         String input = "";
-        try (Stream<String> linesIn = java.nio.file.Files.lines(Paths.get("input/input01.txt"))) {
+        try (Stream<String> linesIn = java.nio.file.Files.lines(Paths.get("input/input00.txt"))) {
             input = linesIn.collect(Collectors.joining("\n"));
         }
         String expected = "";
-        try (Stream<String> linesOut = java.nio.file.Files.lines(Paths.get("output/output01.txt"))) {
-            expected= linesOut.collect(Collectors.joining("\n"));
+        try (Stream<String> linesOut = java.nio.file.Files.lines(Paths.get("output/output00.txt"))) {
+            expected = linesOut.collect(Collectors.joining("\n"));
         }
 
         systemInMock.provideLines(input);
