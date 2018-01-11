@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-// staircase
+// https://www.hackerrank.com/challenges/staircase/problem
 
 public class Solution {
 
