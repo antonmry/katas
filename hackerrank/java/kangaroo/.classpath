@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="bin" kind="output"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/groovy"/>
+    <classpathentry kind="src" path="./"/>
+      
+    <classpathentry sourcepath="" kind="lib" path="."/>
+    <classpathentry sourcepath="" kind="lib" path="/home/antonmry/Workspace/Outros/katas/hackerrank/lib/junit-4.12.jar"/>
+    <classpathentry sourcepath="" kind="lib" path="/home/antonmry/Workspace/Outros/katas/hackerrank/lib/hamcrest-core-1.3.jar"/>
+    <classpathentry sourcepath="" kind="lib" path="/home/antonmry/Workspace/Outros/katas/hackerrank/lib/system-rules-1.16.0.jar"/>
+</classpath>
